@@ -1,0 +1,60 @@
+.clickable:hover {
+  cursor: pointer;
+}
+
+.redBox {
+  background-color:crimson !important;
+}
+
+.greenBox {
+  background-color: darkseagreen !important;
+}
+
+.app {
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: scroll;
+  position: relative;
+}
+
+table {
+  position: relative;
+  border-collapse: collapse;
+}
+
+thead th {
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+  top: 0;
+  background: #FFF !important;
+}
+
+thead th:first-child {
+  left: 0;
+  width: 100px;
+  z-index: 1;
+}
+
+thead th:nth-child(2){
+  left: 60px;
+  z-index: 1;
+}
+
+tbody th:first-child {
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+  left: 0;
+  width: 100px;
+  background-color: #FFF !important;
+}
+
+tbody th:nth-child(2){
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+  left: 60px;
+  background-color: #FFF !important;
+}
+
+.headerBtn {
+  font-size: xx-small;
+}
